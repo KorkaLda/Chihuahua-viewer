@@ -50,8 +50,6 @@ class PhotosCollectionViewController: UICollectionViewController {
         let image = UIImage(named: imageName)
         cell.dogImageView.image = image
         cell.layer.cornerRadius = 20
-        cell.layer.borderWidth = 5
-        cell.layer.borderColor = .init(red: 0.2, green: 0.5, blue: 0.2, alpha: 1)
         cell.layer.masksToBounds = true
         return cell
     }
