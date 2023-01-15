@@ -17,7 +17,7 @@ class PhotoViewController: UIViewController {
         photoImageView.image = image        
     }
     
-    
+    //MARK: - Кнопка поделиться
     @IBAction func shareAction(_ sender: Any) {
         
         let shareController = UIActivityViewController(activityItems: [image!], applicationActivities: nil)
